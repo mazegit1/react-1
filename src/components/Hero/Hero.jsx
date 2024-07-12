@@ -1,5 +1,4 @@
 import "./Hero.css";
-import lupa from "../../assets/img/lupa.svg";
 
 import hero from "../../assets/img/hero.png";
 import herologo from "../../assets/img/hero-logo.png";
@@ -22,8 +21,7 @@ function Hero() {
     </div>
     <div className="hero-right">
         <img src={hero} alt="" />
-        <img className="lupa" src={lupa} alt="" />
-    </div>
+\    </div>
 </div>
   )
 }

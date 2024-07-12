@@ -12,18 +12,21 @@ import shoe9 from "../../assets/img/image 9.png";
 import shoe10 from "../../assets/img/image 10.png";
 import shoe11 from "../../assets/img/image 11.png";
 import shoe12 from "../../assets/img/image 12.png";
+import lupa from "../../assets/img/lupa.svg";
 
 function Cards() {
   return (
 <div className="cards container">
 <div className="cards-top">
   <h1 className="cards-title">Все кроссовки</h1>
+
   <div className="cards-input">
-    <input type="text" placeholder="Поиск..." />
+  <img className="lupa" src={lupa} alt="" />
+
+        <input type="text" placeholder="Поиск..." />
   </div>
 </div>
 <div className="product-cards container">
-  
 <ProductCard ProductImage={shoe1} ProductPrice="12 999 руб."  ProductTitle="Мужские Кроссовки Nike Blazer Mid Suede" />
 <ProductCard ProductImage={shoe2} ProductPrice="12 999 руб."  ProductTitle="Мужские Кроссовки Nike Air Max 270" />
 <ProductCard ProductImage={shoe3} ProductPrice="8 499 руб."  ProductTitle="Мужские Кроссовки Nike Blazer Mid Suede"/>

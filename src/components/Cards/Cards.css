@@ -26,6 +26,9 @@ font-size: 32px;
 .lupa{
     position: absolute;
     z-index: 1590;
- margin-top: 385px;
- margin-left: -70px;
+    margin-top: 10px;
+    margin-left: 15px;
+ width: 25px;
+ height: 25px;
+background-color: #f4efe9;
 }
