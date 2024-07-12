@@ -1,0 +1,28 @@
+.cards{
+margin-top: 70px;
+}
+.cards-top{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.cards-title{
+    font-weight: 700;
+font-size: 32px;
+}
+.cards-input input{
+    width: 250px;
+    height: 45px;
+    border: 1px solid #aeaeae;
+    border-radius: 10px;
+}
+.cards-input input::placeholder{
+    padding-left: 50px;
+    color: #C4C4C4;
+}
+.lupa{
+    position: absolute;
+    z-index: 1590;
+ margin-top: 385px;
+ margin-left: -70px;
+}
