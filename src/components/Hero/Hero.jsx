@@ -6,7 +6,7 @@ import herologo from "../../assets/img/hero-logo.png";
 
 function Hero() {
   return (
-<div className="hero">
+<div className="hero container">
     <div className="hero-left">
 <div className="hero-logo">
   <img src={herologo} alt="" />

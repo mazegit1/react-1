@@ -1,63 +1,77 @@
-.hero{
-    width: 960px;
+.hero {
     height: 300px;
     display: flex;
     margin-top: 90px;
-  margin-left: 480px;
     overflow: hidden;
     border-radius: 20px;
     border: 1px solid rgb(205, 205, 205);
     background-color: #f4efe9;
 }
-.hero-left{
+
+.hero-left {
     width: 319px;
     background-color: #f4efe9;
 
 }
-.hero-logo img{
+
+.hero-logo img {
     position: absolute;
     z-index: 1000;
     margin-left: 20px;
     margin-top: 10px;
 }
-.hero-title{
+
+.hero-title {
     background-color: #f4efe9;
-text-align: start;
+    text-align: start;
     display: flex;
     gap: 10px;
     flex-direction: column;
     padding-left: 50px;
     margin-top: 70px;
 }
-.hero-title h1{
+
+.hero-title h1 {
     font-size: 45px;
     background-color: #f4efe9;
 
     font-weight: 700;
-    color:#A5D364 ;
+    color: #A5D364;
 }
-.hero-title span{
-    background-color:#f4efe9 ;
+
+.hero-title span {
+    background-color: #f4efe9;
     color: #000000;
     font-size: 45px;
     font-weight: 700;
 }
-.hero-button{
+
+.hero-button {
     background-color: #f4efe9;
 
 }
-.hero-logo{
+
+.hero-logo {
     background-color: #f4efe9;
 
 }
-.hero-button button{
-   padding: 14px 60px;
-   background-color: #A5D364;
-   border-radius: 110px;
-   transition: 0.3s ease-in-out;
-   border: none;
+
+.hero-button button {
+    padding: 14px 60px;
+    background-color: #A5D364;
+    border-radius: 110px;
+    transition: 0.3s ease-in-out;
+    border: none;
 }
-.hero-button button:hover{
+
+.hero-button button:hover {
     background-color: #a5d36490;
 
+}
+.hero-right{
+    background-color: #f4efe9;
+    margin-left: auto;
+}
+.hero-right img{
+    margin-left: auto;
 }
