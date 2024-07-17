@@ -1,8 +1,11 @@
 import "./ProductCard.css"; 
 import plus from "../../assets/img/plus.png";
 import cardsHeart from "../../assets/img/cardsHeart.png";
-
+import { useState } from "react";
 function ProductCard(props) {
+const [selected,setSelected] = useState(false);
+
+
   return (
 <div className="product-card">
   <div className="product-card_heart">
@@ -20,7 +23,8 @@ function ProductCard(props) {
       <h1>{props.ProductPrice}</h1>
     </div>
     <div className="subtitle-right">
-      <img src={plus} alt="" />
+      <button className={selected && "selected"} onClick={() => setSelected(!selected)}>      <img src={plus} alt="" />
+      </button>
     </div>
   </div>
 </div>

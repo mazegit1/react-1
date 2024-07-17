@@ -75,6 +75,22 @@ font-size: 20px;
     font-size: 18px;
     font-weight: 500;
 }
+.subtitle-left{
+    background-color: #fff;
+}
+.subtitle-right button{
+    border: none;
+    background-color: #fff;
+    margin-top: 8px;
+    transition: 0.3s ease-in-out;
+    background-color: none;
+    box-shadow: none;
+}
+.subtitle-right button.selected img{
+    translate: -3px -3px;
+  transition: 0.3s ease-in-out;
+    background: linear-gradient(180deg,#89f09c 0%,#3cc755 100%);
+}
 .product-subtitle{
     background-color: #fff;
     display: flex;
